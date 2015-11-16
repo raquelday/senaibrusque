@@ -32,9 +32,8 @@
                                    >
                             
                         </div>
+                        <button type="submit" class="btn btn-success">Cadastrar</button>
                     </div>
-                        
-                           <button type="submit" class="btn btn-success">Cadastrar</button>
                 </form>
             </header>
         </div>
