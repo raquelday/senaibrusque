@@ -42,7 +42,7 @@ function converteDataMySQLPHP($dataMySQL){
  * Verifica se o botão cadastrar foi pressionado
  * 
  */
-if (isset($_POST['btn'])) {
+if (isset($_POST['email'])) {
 
     /**
      * Recepção de dados
@@ -139,6 +139,10 @@ if (isset($_POST['btn'])) {
         
         $p = $conn->prepare($sql);
         $q = $p->execute(array(':hash'=>$hash));
+        
+        //todo criar issue no GitHub
+        // criar uma página de resposta de confirmação de cadastro de email
+        
         
         header("Location: cadastro.php?cod=listar");
     }

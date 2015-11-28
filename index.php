@@ -17,27 +17,11 @@
         <header class="jumbotron text-center" id="topo">
             <h1>FIESC / SENAI</h1>
             <p>A FORÇA DA INDÚSTRIA CATARINENSE</p>
-            <form role="form" action="cadastro/cadastro.php" method="post">
-                <div class="form-inline">
-
-                    <div class="input-group input-group-sm">
-                        <span class="input-group-addon"> 
-                            <span class="glyphicon glyphicon-envelope"></span>
-                        </span>
-
-                        <input type="email" name="email" required
-                               class="form-control"
-                               id="email"
-                               placeholder="seunome@seuemail.com"
-                               >
-
-                    </div>
-                    <!--<button type="submit" class="btn btn-success">Cadastrar</button>-->
-                    <input type="submit" name="btn" value="cadastrar" class="btn btn-success" />
-                </div>
-            </form>
+            
+            <?php include 'formCadastro.php' ?>
+            
         </header>
-
+              
     </div>
     <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="250">
         <div class="container-fluid">
@@ -169,5 +153,6 @@
             <script src="js/bootstrap.min.js"></script>
             <script src="js/validator.js"></script>
             <script src="js/formScript.js"></script>
+            <script src="js/cadastroScript.js"></script>
             </body>
             </html>

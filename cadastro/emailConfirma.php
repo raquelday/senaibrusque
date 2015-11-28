@@ -37,6 +37,11 @@ function emailConfirma($email, $link) {
 // Additional headers
     $headers .= "To: $email" . "\r\n";
     $headers .= 'From: Senai Brusque <raquel.day@hotmail.com>';
+    
+    if (emailConfirma ($email, $link))
+        echo "sucess";
+    
+    
 
 // Mail it
     mail($to, $subject, $message, $headers);
