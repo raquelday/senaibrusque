@@ -33,18 +33,18 @@
      position: relative;
      top: 50px;
   }
-  #inicio {padding-top:50px;height:500px;color: #2E2E2E; background-color: #1E88E5;}
+  #inicio {padding-top:20px;height:500px;color: #2E2E2E; background-color: #CCCCCC;}
   #cursos {padding-top:50px;height:500px;color: #2E2E2E; background-color: white;}
   #noticias {padding-top:50px;height:500px;color: #2E2E2E; background-color: white;}
   #fotos {padding-top:50px;height:500px;color: #2E2E2E; background-color: white;}
-  #videos {padding-top:50px;height:500px;color: #2E2E2E; background-color: white;}
+  #videos {padding-top:50px;height:400px;color: #2E2E2E; background-color: white;}
   #contato {padding-top:50px;height:500px;color: #2E2E2E; background-color: white;}
-  #localização {padding-top:50px;height:500px;color: #2E2E2E; background-color: white
+  #localização {padding-top:10px;height:500px;color: #2E2E2E; background-color: white
   ;}
   
   .carousel-inner > .item > img,
   .carousel-inner > .item > a > img {
-      width: 80%; height: 500px;
+      width: 50%; height: 400px;
       margin: auto; 
   }
   
