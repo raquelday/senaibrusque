@@ -100,19 +100,19 @@
                 <!-- Wrapper for slides -->
                 <div class="carousel-inner" role="listbox">
                     <div class="item active">
-                        <img src="http://susancorso.com/seedsforsanctuary/wp-content/uploads/2013/04/box_placeholder.jpg" alt="Chania">
+                        <img src="https://raw.githubusercontent.com/tarcnux/senaibrusque/master/img/saiba_mais_sobre_o_senai.png" alt="Chania">
                     </div>
 
                     <div class="item">
-                        <img src="https://cloud.canadastays.com/assets/images/user-placeholder.png" alt="Chania">
+                        <img src="http://saborbelga.com/wp-content/uploads/2014/05/Senai_Brusque.jpg" alt="Chania">
                     </div>
 
                     <div class="item">
-                        <img src="http://greenweddingshoes.com/wp-content/uploads/2011/09/DIY-terrarium-placeholder-03.jpg" alt="Flower">
+                        <img src="http://municipiomais.com.br/wp-content/uploads/2014/09/desafio.jpg" alt="Flower">
                     </div>
 
                     <div class="item">
-                        <img src="http://greenweddingshoes.com/wp-content/uploads/2011/09/DIY-terrarium-placeholder-05.jpg" alt="Flower">
+                        <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2015/07/Senai-RJ-cursos-2016.jpg" alt="Flower">
                     </div>
                 </div>
 
