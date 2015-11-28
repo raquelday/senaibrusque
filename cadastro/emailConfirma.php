@@ -4,16 +4,16 @@ function emailConfirma($email, $link) {
 
     // múltiplos destinatários
     $to = $email . ', '; // notar a vírgula
-    $to .= 'tarcnux@gmail.com';
+    $to .= 'raquel.day@hotmail.com';
 
 // subject
-    $subject = 'Confirmação de cadastro [nome do site]';
+    $subject = 'Confirmação de cadastro [Senai Brusque]';
 
 // message
     $message = "
 <html>
     <head>
-        <title>Confirmação de cadastro [nome do site]</title>
+        <title>Confirmação de cadastro [Senai Brusque]</title>
     </head>
     <body>
         <center><img src='http://www.noticenter.com.br/geral/img/empresas/senai.jpg' alt='Logo do SENAI' /></center>
@@ -36,7 +36,7 @@ function emailConfirma($email, $link) {
 
 // Additional headers
     $headers .= "To: $email" . "\r\n";
-    $headers .= 'From: Nome do site <tarcnux@gmail.com>';
+    $headers .= 'From: Senai Brusque <raquel.day@hotmail.com>';
 
 // Mail it
     mail($to, $subject, $message, $headers);
