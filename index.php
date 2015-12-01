@@ -120,7 +120,62 @@
         
         <div id="noticias" class="container-fluid">
             <h1>Notícias</h1>
-            
+       
+ 
+        <div class="container">
+            <div class="row">
+            <div class="col-md-4">
+            <h1>Novos Cursos</h1>
+            <p> Confira a listagem dos novo cursos para 2016...</p>
+            <img src="http://sc.senai.br/sites/default/files/banner_comunidade_1.jpg" alt="senai" style="height:100px;">
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h1 class="modal-title">Novos Cursos</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>Os cursos do senai ofertados</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+            <div class="container">
+            <h1>Destaque</h1>
+            <p> Estudante do Senai é destaque no SCMC...</p>
+            <img src="http://sc.senai.br/sites/default/files/styles/slider_image_focus/public/img_6871.jpg" alt="senai" style="height:100px;">
+            <!-- Trigger the modal with a button -->
+            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h1 class="modal-title">Aluna Destaque</h1>
+                        </div>
+                        <div class="modal-body">
+                            <p>Florianópolis, 30.11.2015 – A aluna do SENAI em Blumenau Mayara Theiss Laperuta foi, entre 41 concorrentes, a estudante mais citada pelas empresas, que listaram os alunos que se destacaram no SCMC Design Camp, realizado pelo Santa Catarina Moda e Cultura (SCMC). O evento foi encerrado no sábado, 28, em Florianópolis, depois de cinco dias em que estudantes de moda e design de 17 instituições de ensino apresentaram soluções para desafios de 18 companhias da cadeia de moda e design do Estado. Ao todo, 100 projetos foram entregues, em processo de troca de ideias e cocriação. O SENAI, entidade da FIESC, teve 11 estudantes – das cidades de Blumenau, Jaraguá do Sul, Joinville e Criciúma – classificados para o encerramento o SCMC. </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
         </div>
             
             <div id = "fotos" class = "container-fluid">
@@ -154,5 +209,5 @@
             <script src="js/validator.js"></script>
             <script src="js/formScript.js"></script>
             <script src="js/cadastroScript.js"></script>
-            </body>
-            </html>
+     </body>
+ </html>
