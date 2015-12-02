@@ -125,40 +125,40 @@
                 <div class="row">
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="http://cursosgratuitosbrasil.com.br/wp-content/uploads/2015/04/Senai-Joinville-cursos-gratuitos.jpg">
+                            <img src="http://cursosgratuitosbrasil.com.br/wp-content/uploads/2015/04/Senai-Joinville-cursos-gratuitos.jpg" height="350" width="350">
                         </a>
                         <a href="#" class="thumbnail">
-                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2015/05/Senai-Presidente-Prudente.jpg">
+                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2015/05/Senai-Presidente-Prudente.jpg" height="350" width="350">
                         </a>
                         <a href="#" class="thumbnail">
-                            <img src="http://senaicursos.net.br/wp-content/uploads/2015/09/21.png">
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-md-3">
-                        <a href="#" class="thumbnail">
-                            <img src="http://extra.globo.com/incoming/10229725-e21-a2a/w640h360-PROP/senai-curso-gratuito-distancia.jpg">
-                        </a>
-                        <a href="#" class="thumbnail">
-                            <img src="http://senaipronatec.com.br/wp-content/uploads/2014/12/Senai-Bahia.jpg">
-                        </a>
-                        <a href="#" class="thumbnail">
-                            <img src="http://extra.globo.com/incoming/11602724-bc9-1a2/w640h360-PROP/Senai-RJ-Pronatec.jpg">
+                            <img src="http://senaicursos.net.br/wp-content/uploads/2015/09/21.png" height="350" width="350">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="http://senaipronatec.com.br/wp-content/uploads/2015/04/Senai-Duque-de-Caxias-cursos.jpg">
+                            <img src="http://extra.globo.com/incoming/10229725-e21-a2a/w640h360-PROP/senai-curso-gratuito-distancia.jpg" height="350" width="350">
                         </a>
                         <a href="#" class="thumbnail">
-                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2014/10/Senai-PE-cursos-gratuitos-20151.jpg">
+                            <img src="http://senaipronatec.com.br/wp-content/uploads/2014/12/Senai-Bahia.jpg" height="350" width="300">
                         </a>
                         <a href="#" class="thumbnail">
-                            <img src="http://cdn.giro.matanorte.com/2015/05/senai.jpg">
+                            <img src="http://extra.globo.com/incoming/11602724-bc9-1a2/w640h360-PROP/Senai-RJ-Pronatec.jpg" height="350" width="350">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="http://extra.globo.com/incoming/10688577-230-a38/w640h360-PROP/senai-vagas-curso-gratuito.jpg">
+                            <img src="http://senaipronatec.com.br/wp-content/uploads/2015/04/Senai-Duque-de-Caxias-cursos.jpg" height="350" width="350">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2014/10/Senai-PE-cursos-gratuitos-20151.jpg" height="350" width="350">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://cdn.giro.matanorte.com/2015/05/senai.jpg" height="350" width="350">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="http://extra.globo.com/incoming/10688577-230-a38/w640h360-PROP/senai-vagas-curso-gratuito.jpg" height="350" width="350">
                         </a>
                         <a href="#" class="thumbnail">
                             <img src="http://placehold.it/350x120">

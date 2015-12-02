@@ -1,6 +1,60 @@
 <section id="noticias" class="container-fluid">
     <h1>Noticias</h1>
-    
+    <div class="row">
+        <div class="panel panel-success col-lg-3 col-md-3">
+            <div class="panel-heading">Titulo da Noticia</div>
+            <div class="panel-body">Resumo da noticia...</div>
+            <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
+        </div>
+        
+        <div class="panel panel-success col-lg-3 col-md-3">
+            <div class="panel-heading">Titulo da Noticia</div>
+            <div class="panel-body">Resumo da noticia...</div>
+        </div>
+        
+        <div class="panel panel-success col-lg-3 col-md-3">
+            <div class="panel-heading">Titulo da Noticia</div>
+            <div class="panel-body">Resumo da noticia...</div>
+        </div>
+        
+            <div class="panel panel-success col-lg-3 col-md-3">
+                <div class="panel-heading">Titulo da Noticia</div>
+                <div class="panel-body">Resumo da noticia...</div>
+                <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
+            </div>
+
+            <div class="panel panel-success col-lg-3 col-md-3">
+                <div class="panel-heading">Titulo da Noticia</div>
+                <div class="panel-body">Resumo da noticia...</div>
+            </div>
+
+            <div class="panel panel-success col-lg-3 col-md-3">
+                <div class="panel-heading">Titulo da Noticia</div>
+                <div class="panel-body">Resumo da noticia...</div>
+            </div>
+        
+                <div class="panel panel-success col-lg-3 col-md-3">
+                    <div class="panel-heading">Titulo da Noticia</div>
+                    <div class="panel-body">Resumo da noticia...</div>
+                    <button type="button" class="btn btn-success" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
+                </div>
+
+                <div class="panel panel-success col-lg-3 col-md-3">
+                    <div class="panel-heading">Titulo da Noticia</div>
+                    <div class="panel-body">Resumo da noticia...</div>
+                </div>
+
+                <div class="panel panel-success col-lg-3 col-md-3">
+                    <div class="panel-heading">Titulo da Noticia</div>
+                    <div class="panel-body">Resumo da noticia...</div>
+                </div>
+    </div>
+    <!-- pagina;'ao -->
+    <ul class="pagination pool-raigth">
+        <li><a href="#">1</a></li>
+        <li class="active"><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+    </ul>
 </section>
          
     
