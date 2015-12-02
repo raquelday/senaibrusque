@@ -54,5 +54,15 @@
   
     
   #noticias .panel{
-      margin-left: 
+      margin-left: 5%;
+      padding:10px;
+  }
+  
+  #noticias .pagination .active a{
+      background-color: #449d44;
+      border-color: #449d44;
+      color: lightgreen;
+  }
+  
+  .modal {margin-top: 50px; overflow-y:auto;
   }
