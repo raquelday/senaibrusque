@@ -8,7 +8,7 @@
             <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia1">Leia Mais...</button>
             
             <div class="modal fade" id="noticia1" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -17,9 +17,9 @@
                         <div class="modal-body">
                             <time>11/11/2015 13:44;15</time>
                             <p>Autor: Fulano de Tal</p>
-                            <p>Os cursos do senai ofertados</p>
-                            <p>Os cursos do senai ofertados</p>
-                            <p>Os cursos do senai ofertados</p>
+                            <p>O Curso de Iniciação Profissional Informática Básica tem por objetivo o desenvolvimento de competências relativas àcompreensão de:terminologia básica de informática e seu significado na concepção de sistemas computadorizadoselementos físicos do sistema (hardware) em função de sua utilização no tratamento da informação;suportes de programação (software) na concepção de ferramentas de apoio no ambiente profissional;diferentes aplicativos em função de necessidades. </p>
+                            <p>Adquirir habilidades de:elaborar texto com auxílio de editor de textos;estruturar planilhas de cálculo com ajuda de planilha eletrônica;elaborar recursos visuais com ajuda de programa de apresentação gráfica; pesquisar na rede internet com auxilio de programa específico.</p>
+                            <p>Desenvolver hábitos de:aplicação de programas antivírus;gravação de trabalhos em cópias de segurança; consulta de manuais;conservação de equipamento;manutenção do sistema (limpeza de disco, desfragmentação, atualizações, etc.) </p>
                             
                             <h3>Rachel Day</h3>
                         </div>
@@ -33,12 +33,14 @@
         </div>
         
         <div class="panel panel-success col-lg-3 col-md-3">
-            <div class="panel-heading">Titulo da Noticia</div>
-            <div class="panel-body">Resumo da noticia...</div>
-            <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia10">Leia Mais...</button>
+            <div class="panel-heading">Destaque</div>
+            <div class="panel-body">Estudante do Senai é destaque no SCMC...</div>
+             <img src="http://sc.senai.br/sites/default/files/styles/slider_image_focus/public/img_6871.jpg" alt="senai" style="height:100px;">
+             <p>  </p>
+             <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia10">Leia Mais...</button>
         
             <div class="modal fade" id="noticia10" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -67,7 +69,7 @@
             <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia11">Leia Mais...</button>
         
         <div class="modal fade" id="noticia11" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -96,7 +98,7 @@
                 <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia4">Leia Mais...</button>
             
             <div class="modal fade" id="noticia4" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -125,7 +127,7 @@
                 <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia5">Leia Mais...</button>
             
             <div class="modal fade" id="noticia5" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -154,7 +156,7 @@
                 <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia6">Leia Mais...</button>
             
                 <div class="modal fade" id="noticia6" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -162,7 +164,7 @@
                         </div>
                         <div class="modal-body">
                             <time>01/12/2015 20:44;15</time>
-                            <p>Autor: Fulano de Tal</p>
+                            <p>Autor: Alexandre Petermann</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
@@ -183,7 +185,7 @@
                     <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia7">Leia Mais...</button>
                 
                 <div class="modal fade" id="noticia7" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -191,7 +193,7 @@
                         </div>
                         <div class="modal-body">
                             <time>01/12/2015 20:44;15</time>
-                            <p>Autor: Fulano de Tal</p>
+                            <p>Autor: Allan</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
@@ -212,7 +214,7 @@
                     <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia8">Leia Mais...</button>
                 
                 <div class="modal fade" id="noticia8" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -220,7 +222,7 @@
                         </div>
                         <div class="modal-body">
                             <time>01/12/2015 20:44;15</time>
-                            <p>Autor: Fulano de Tal</p>
+                            <p>Autor: Maridalva</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
@@ -241,7 +243,7 @@
                     <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#noticia9">Leia Mais...</button>
                 
                 <div class="modal fade" id="noticia9" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -249,7 +251,7 @@
                         </div>
                         <div class="modal-body">
                             <time>01/12/2015 20:44;15</time>
-                            <p>Autor: Fulano de Tal</p>
+                            <p>Autor: José Maria</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
                             <p>Os cursos do senai ofertados</p>
@@ -283,7 +285,7 @@
 
             <!-- Modal -->
             <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -311,7 +313,7 @@
 
             <!-- Modal -->
             <div class="modal fade" id="noticia2" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -340,7 +342,7 @@
 
             <!-- Modal -->
             <div class="modal fade" id="noticia3" role="dialog">
-                <div class="modal-dialog modal-sm">
+                <div class="modal-dialog modal-lg">
                     <div class="modal-content">
                         <div class="modal-header">
                             <button type="button" class="close" data-dismiss="modal">&times;</button>
