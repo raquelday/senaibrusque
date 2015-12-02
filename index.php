@@ -17,11 +17,11 @@
         <header class="jumbotron text-center" id="topo">
             <h1>FIESC / SENAI</h1>
             <p>A FORÇA DA INDÚSTRIA CATARINENSE</p>
-            
+
             <?php include 'formCadastro.php' ?>
-            
+
         </header>
-              
+
     </div>
     <nav class="navbar navbar-inverse" data-spy="affix" data-offset-top="250">
         <div class="container-fluid">
@@ -117,134 +117,99 @@
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
             <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
         </div>
-        
-        <div id="noticias" class="container-fluid">
-            <h1>Últimas Notícias</h1>
-        
-                 
-            <div class="col-md-4">
-            <h1>Novos Cursos</h1>
-            <p> Confira a listagem dos novo cursos para 2016...</p>
-            <img src="http://sc.senai.br/sites/default/files/banner_comunidade_1.jpg" alt="senai" style="height:100px;">
-            <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h1 class="modal-title">Novos Cursos</h1>
-                        </div>
-                        <div class="modal-body">
-                            <p>Os cursos do senai ofertados</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                        </div>
+        <?php include 'noticias.php'; ?>
+       
+        <section id="Fotos" class="container-fluid">
+                <h1>Fotos</h1>
+                <div class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="http://cursosgratuitosbrasil.com.br/wp-content/uploads/2015/04/Senai-Joinville-cursos-gratuitos.jpg">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2015/05/Senai-Presidente-Prudente.jpg">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://senaicursos.net.br/wp-content/uploads/2015/09/21.png">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="http://extra.globo.com/incoming/10229725-e21-a2a/w640h360-PROP/senai-curso-gratuito-distancia.jpg">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://senaipronatec.com.br/wp-content/uploads/2014/12/Senai-Bahia.jpg">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://extra.globo.com/incoming/11602724-bc9-1a2/w640h360-PROP/Senai-RJ-Pronatec.jpg">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="http://senaipronatec.com.br/wp-content/uploads/2015/04/Senai-Duque-de-Caxias-cursos.jpg">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2014/10/Senai-PE-cursos-gratuitos-20151.jpg">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://cdn.giro.matanorte.com/2015/05/senai.jpg">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <a href="#" class="thumbnail">
+                            <img src="http://extra.globo.com/incoming/10688577-230-a38/w640h360-PROP/senai-vagas-curso-gratuito.jpg">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://placehold.it/350x120">
+                        </a>
+                        <a href="#" class="thumbnail">
+                            <img src="http://placehold.it/350x120">
+                        </a>
                     </div>
                 </div>
-            </div>
-        </div>
-                          
-            <div class="col-md-4">
-            <h1>Destaque</h1>
-            <p> Estudante do Senai é destaque no SCMC...</p>
-            <img src="http://sc.senai.br/sites/default/files/styles/slider_image_focus/public/img_6871.jpg" alt="senai" style="height:100px;">
-            <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button2" class="close2" data-dismiss="modal2">&times;</button>
-                            <h1 class="modal-title">Aluna Destaque</h1>
-                        </div>
-                        <div class="corpo">
-                            <p>Florianópolis, 30.11.2015 – A aluna do SENAI em Blumenau Mayara Theiss Laperuta foi, entre 41 concorrentes, a estudante mais citada pelas empresas, que listaram os alunos que se destacaram no SCMC Design Camp, realizado pelo Santa Catarina Moda e Cultura (SCMC). O evento foi encerrado no sábado, 28, em Florianópolis, depois de cinco dias em que estudantes de moda e design de 17 instituições de ensino apresentaram soluções para desafios de 18 companhias da cadeia de moda e design do Estado. Ao todo, 100 projetos foram entregues, em processo de troca de ideias e cocriação. O SENAI, entidade da FIESC, teve 11 estudantes – das cidades de Blumenau, Jaraguá do Sul, Joinville e Criciúma – classificados para o encerramento o SCMC.</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>  
-            
-            <div class="col-md-4">
-            <h1>EnModa 2015</h1>
-            <p> EnModa 2015 reforça parceria do SENAI com indústrias...</p>
-            <img src="http://sc.senai.br/sites/default/files/styles/slider_image_focus/public/foto3_b.jpg" alt="senai" style="height:100px;">
-            <!-- Trigger the modal with a button -->
-            <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Leia Mais...</button>
-
-            <!-- Modal -->
-            <div class="modal fade" id="myModal" role="dialog">
-                <div class="modal-dialog modal-sm">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h1 class="modal-title">EnModa 2015</h1>
-                        </div>
-                        <div class="corpo2">
-                            <p>Ao longo do segundo semestre de 2015 o EmModa evoluiu até chegar aos modelos confeccionados pelos próprios alunos, nos laboratórios do Senai. “O projeto trabalha a criação dentro de uma realidade de mercado, permitindo a maior inserção dos nossos alunos no mercado de trabalho”, observa a coordenadora do curso, Charlene Vicente Amâncio.
-
-O EnModa 2015 prepara ainda mais atrações para quem for acompanhar os desfiles no Siso’s Hall. No evento, as criações de acadêmicos das segundas e quartas fases do curso também serão expostas. O projeto da segunda fase consiste na criação dos modelos para Barbie e cenários para estas bonecas, tendo como fonte de inspiração a indumentária no mundo. Com isso serão reproduzidas vestes ligadas a várias culturas. Já os alunos da quarta fase ficarão responsáveis por expor os adornos de cabeça com o tema “grandes acontecimentos mundiais”.
-
-O EnModa é uma vitrine para apresentação dos projetos interdisciplinares do curso, que envolve vários segmentos de confecção como estamparias, tecidos, bordados e acessórios. Nas aulas do curso as estudantes finalizam os modelos que serão apresentados na próxima semana. Bordados, detalhes, recortes e finalizações seguem em ritmo acelerado para que o evento mantenha o alto nível das edições anteriores. 
-
-FIESC Imprensa
-
-Com informações de Ana Sofia Schuster
-
-Novo Texto Comunicação/Criciúma</p>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-            
-            
-            
-            </div>
-
-           
-            <div id = "fotos" class = "container-fluid">
-            <h1>Fotos</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling!Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling!Try to scroll this section and look at the navigation bar while scrolling!</p>
-                      
-            </div>
+                <nav>
+                    <ul class= "pagination" >
+                        <li>
+                            <a href= "#" aria-label= "Anterior" >
+                                <span aria-hidden= "true" > « </span>
+                            </a>
+                        </li>
+                        <li><a href= "#" > 1 </a></li>
+                        <li><a href= "#" > 2 </a></li>
+                        <li><a href= "#" > 3 </a></li>
+                        <li>
+                            <a href= "#" aria-label= "Proxima" >
+                                <span aria-hidden= "true" > » </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
 
             <section id = "videos" class = "container-fluid">
-            <div class = "text-center">
-            <h1>Galeria Vídeos</h1>
-            <iframe width = "560" height = "315" src = "https://www.youtube.com/embed/videoseries?list=PLXTxMOByxQKOZcxIvbgx_93ItPjnbqYIk" frameborder = "0" allowfullscreen></iframe>
-            </div>
+                <div class = "text-center">
+                    <h1>Galeria Vídeos</h1>
+                    <iframe width = "560" height = "315" src = "https://www.youtube.com/embed/videoseries?list=PLXTxMOByxQKOZcxIvbgx_93ItPjnbqYIk" frameborder = "0" allowfullscreen></iframe>
+                </div>
             </section>
-        
-        <?php include 'formContato.php';
+
+            <?php include 'formContato.php';
             ?>
 
             <section id = "localização" class = "container-fluid">
-            <div class = "text-center">
-            <h1>Localização</h1>
-            <iframe src = "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5972.578301415663!2d-48.91459628134629!3d-27.11484556231412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447800510027" width = "600" height = "450" frameborder = "0" style = "border:0" allowfullscreen></iframe>
-            </div>
+                <div class = "text-center">
+                    <h1>Localização</h1>
+                    <iframe src = "https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d5972.578301415663!2d-48.91459628134629!3d-27.11484556231412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x94df47b2050e1221%3A0xb0ebeaaf853b447!2sAv.+Primeiro+de+Maio%2C+670+-+Primeiro+de+Maio%2C+Brusque+-+SC%2C+88353-202!3m2!1d-27.1156975!2d-48.910202!5e0!3m2!1spt-BR!2sbr!4v1447800510027" width = "600" height = "450" frameborder = "0" style = "border:0" allowfullscreen></iframe>
+                </div>
             </section>
 
-            
+
             <script src="js/meuscript.js"></script>
             <script src="js/jquery-1.11.3.min.js"></script>
             <script src="js/bootstrap.min.js"></script>
             <script src="js/validator.js"></script>
             <script src="js/formScript.js"></script>
             <script src="js/cadastroScript.js"></script>
-     </body>
- </html>
+            </body>
+            </html>
