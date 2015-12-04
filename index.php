@@ -112,13 +112,10 @@
             </div>
 
         </div>
-        <div id="cursos" class="container-fluid">
-            <h1>Cursos</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-        </div>
-
-        <?php include 'noticias.php'; ?>
+    </section>    
+                <?php include 'cursos.php'; ?>
+            
+                <?php include 'noticias.php'; ?>
        
         <section id="Fotos" class="container-fluid">
                 <h1>Fotos</h1>
@@ -142,29 +139,18 @@
                             <img src="http://senaipronatec.com.br/wp-content/uploads/2014/12/Senai-Bahia.jpg" height="350" width="300">
                         </a>
                         <a href="#" class="thumbnail">
-                            <img src="http://extra.globo.com/incoming/11602724-bc9-1a2/w640h360-PROP/Senai-RJ-Pronatec.jpg" height="350" width="350">
+                            <img src="http://extra.globo.com/incoming/11602724-bc9-1a2/w640h360-PROP/Senai-RJ-Pronatec.jpg" height="350" width="300">
                         </a>
                     </div>
                     <div class="col-xs-6 col-md-3">
                         <a href="#" class="thumbnail">
-                            <img src="http://senaipronatec.com.br/wp-content/uploads/2015/04/Senai-Duque-de-Caxias-cursos.jpg" height="350" width="350">
+                            <img src="http://senaipronatec.com.br/wp-content/uploads/2015/04/Senai-Duque-de-Caxias-cursos.jpg" height="350" width="300">
                         </a>
                         <a href="#" class="thumbnail">
-                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2014/10/Senai-PE-cursos-gratuitos-20151.jpg" height="350" width="350">
+                            <img src="http://www.cursosgratuitossenai.net/wp-content/uploads/2014/10/Senai-PE-cursos-gratuitos-20151.jpg" height="350" width="300">
                         </a>
                         <a href="#" class="thumbnail">
-                            <img src="http://cdn.giro.matanorte.com/2015/05/senai.jpg" height="350" width="350">
-                        </a>
-                    </div>
-                    <div class="col-xs-6 col-md-3">
-                        <a href="#" class="thumbnail">
-                            <img src="http://extra.globo.com/incoming/10688577-230-a38/w640h360-PROP/senai-vagas-curso-gratuito.jpg" height="350" width="350">
-                        </a>
-                        <a href="#" class="thumbnail">
-                            <img src="http://placehold.it/350x120">
-                        </a>
-                        <a href="#" class="thumbnail">
-                            <img src="http://placehold.it/350x120">
+                            <img src="http://cdn.giro.matanorte.com/2015/05/senai.jpg" height="350" width="300">
                         </a>
                     </div>
                 </div>
@@ -211,5 +197,6 @@
             <script src="js/validator.js"></script>
             <script src="js/formScript.js"></script>
             <script src="js/cadastroScript.js"></script>
+            <script src="js/noticia.js"></script>
             </body>
             </html>
